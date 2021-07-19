@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch assets/index.js --out-dir prod/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "js": "^0.1.0",
     "sass": "^1.35.2"
   }
 }
